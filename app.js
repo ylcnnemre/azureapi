@@ -17,6 +17,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-app.listen(3000,()=>{
+app.listen(7500,()=>{
     console.log("server is runnning")
 })
