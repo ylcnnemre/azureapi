@@ -44,7 +44,7 @@ jobs:
 
     - name: npm install and start
       run: |
-        npm run start
+        npm install
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
